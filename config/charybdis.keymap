@@ -3,16 +3,17 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#define EN 0
+#define Base 0
 #define MOUSE 1
 #define RU 2
 #define SYM_EN 3
 #define SYM_RU 4
 #define NUM_ARROW 5
-#define NUMBER 3
-#define FUNCTION 4
-#define GAME 5
-#define RESET 6
+#define SYM 6
+#define NUMBER 7
+#define FUNCTION 8
+#define GAME 9
+#define RESET 10
 
 #define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24
 #define KEYS_R 5 6 7 8 9 15 16 17 18 19 25 26 27 28 29
@@ -311,7 +312,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        En {
+        Base {
             label = "Base";
             display-name = "En";
             bindings = <
@@ -358,6 +359,18 @@
 &kp RU_NUMERO  &en TILDE         &en GRAVE  &en SQT      &kp RU_DOUBLE_QUOTES  &en DLLR            &en LEFT_BRACKET  &en RIGHT_BRACKET          &en LBRC   &en RBRC   &kp STAR      &kp RU_FSLH
 &kp LALT       &kp RU_BACKSLASH  &en PIPE   &kp RU_FSLH  &none                 &kp EXCL            &kp RU_QUESTION   &kp RU_CYRILLIC_HARD_SIGN  &kp UNDER  &kp EQUAL  &kp RU_COLON  &kp RU_SEMI
                                 &trans     &trans      &trans       &trans     &trans     
+                                           &trans      &trans       &trans
+            >;
+        };
+
+       num_arrow {
+            display-name = "num_arrow";
+            bindings = <
+&trans    &trans           &trans             &trans    &trans     &trans      &trans        &trans         &trans             &trans     &trans      &trans
+&none     &kp PAUSE_BREAK  &kp C_VOLUME_UP    &kp UP    &kp PG_UP  &kp HOME    &kp N7        &kp NUMBER_8   &kp N9             &kp N0     &kp PLUS    &kp RU_MINUS
+&none     &kp PRINTSCREEN  &kp LEFT           &kp DOWN  &kp RIGHT  &kp INS     &kp NUMBER_4  &kp N5         &kp NUMBER_6       &none      &kp STAR    &kp RU_FSLH
+&kp LALT  &none            &kp C_VOLUME_DOWN  &kp C_PP  &kp PG_DN  &kp END     &kp N1        &kp N2         &kp N3             &kp EQUAL  &kp RU_DOT  &kp RU_COMMA
+                               &trans     &trans      &trans       &trans     &trans     
                                            &trans      &trans       &trans
             >;
         };
