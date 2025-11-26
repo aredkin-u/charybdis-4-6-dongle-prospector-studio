@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis, layout_name: charybdis_6col_layout}
 layers:
-  Base: [ESC, '1', '2', '3', '4', '5', '6', '7', '8', '9', '0', DEL, TAB, Q, W, E, R, T, Y, U, I, O, P, '[', ESC, A, S, D, F, G, H, J, K, L, ;, '''', LSHFT, Z, X,
-    C, V, B, N, M, ',', ., /, ']', Mouse, RET, LEFT GUI, LCTRL, SPACE, LEFT ALT, Symbol, BSPC]
+  En: [F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, DEV TOOLS, ESC, Q, W, E, R, T, Y, U, I, O, P, '', TAB, A, S, D, F, G, H, J, K, L, '', /, LALT, Z, X, C, V, B,
+    N, M, '', '', ., ',', Mouse, LCTRL, SPACE, LCTRL, BSPC, LEFT ALT, Symbol, DEL]
   Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -221,7 +221,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Base, h: toggle}
+  - {t: En, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -278,7 +278,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Base, h: toggle}
+  - {t: En, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -335,7 +335,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Base, h: toggle}
+  - {t: En, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -352,7 +352,7 @@ combos:
 - p: [32, 33]
   k: BOOT LDR
 - p: [7, 8]
-  k: {t: Base, h: toggle}
+  k: {t: En, h: toggle}
 - p: [27, 28]
   k: {t: Function, h: sticky}
 - p: [5, 9]
