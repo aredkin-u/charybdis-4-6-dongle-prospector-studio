@@ -350,7 +350,7 @@
             >;
         };
 
-        FUNCTION {
+        Ru {
             label = "FUNCTION";
             display-name = "FUNCTION";
             bindings = <
@@ -363,7 +363,7 @@
             >;
         };
 
-        GAME {
+        Sym_ru {
             label = "GAME";
             display-name = "GAME";
             bindings = <
