@@ -126,21 +126,6 @@
             bindings = <&to GAME>;
         };
 
-        combo_esc {
-            key-positions = <1 2>;
-            bindings = <&kp ESCAPE>;
-        };
-
-        combo_tab {
-            key-positions = <2 3>;
-            bindings = <&kp TAB>;
-        };
-
-        combo_cdel {
-            key-positions = <11 12>;
-            bindings = <&kp LC(BACKSPACE)>;
-        };
-
         combo_unlock {
             key-positions = <0 4>;
             bindings = <&studio_unlock>;
@@ -365,9 +350,9 @@
             >;
         };
 
-        Fun {
+        ru {
             label = "Function";
-            display-name = "Function";
+            display-name = "Ru";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -378,9 +363,9 @@
             >;
         };
 
-        Button {
+        sym_ru {
             label = "Game";
-            display-name = "Game";
+            display-name = "Sym Ru";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
