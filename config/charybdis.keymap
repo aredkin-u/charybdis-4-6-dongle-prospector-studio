@@ -185,7 +185,7 @@
         layer_ru: layer_ru {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to_ru &to 1>;
+            bindings = <&to_ru &to 4>;
             label = "LAYER_RU";
             tap-ms = <60>;
             wait-ms = <0>;
@@ -302,12 +302,12 @@
             label = "BASE";
             display-name = "BASE";
             bindings = <
-&kp ESC   &kp N1  &kp N2  &kp N3  &kp N4        &kp N5          &kp N6    &kp N7     &kp N8  &kp N9  &kp N0   &kp DEL
-&kp ESC   &kp Q   &kp W   &kp E   &kp R         &kp T           &kp Y     &kp U      &kp I   &kp O   &kp P    &none
-&kp TAB   &kp A   &kp S   &kp D   &kp F         &kp G           &kp H     &kp J      &kp K   &kp L   &none    &kp FSLH
-&kp LALT  &kp Z   &kp X   &kp C   &kp V         &kp B           &kp N     &kp M      &none   &none   &kp DOT  &kp COMMA
-                          &mo 1   &kp RET       &kp LEFT_GUI    &mo 2     &kp SPACE
-                                  &kp LEFT_ALT  &mo 2           &kp BSPC
+&kp F1    &kp F2  &kp F3  &kp F4  &kp F5     &kp F6        &kp F7   &kp F8         &kp F9  &kp F10  &kp F11  &kp F12
+&kp ESC   &kp Q   &kp W   &kp E   &kp R      &kp T         &kp Y    &kp U          &kp I   &kp O    &kp P    &none
+&kp TAB   &kp A   &kp S   &kp D   &kp F      &kp G         &kp H    &kp J          &kp K   &kp L    &none    &kp FSLH
+&kp LALT  &kp Z   &kp X   &kp C   &kp V      &kp B         &kp N    &kp M          &none   &none    &kp DOT  &kp COMMA
+                          &mo 3   &kp LCTRL  &kp SPACE     &mo 2    &kp BACKSPACE
+                                  &kp LWIN   &kp LSHIFT    &kp DEL
             >;
         };
 
@@ -341,12 +341,12 @@
             label = "NUMBER";
             display-name = "NUMBER";
             bindings = <
-&trans  &trans    &trans  &trans    &trans    &trans       &bootloader  &sys_reset  &trans           &trans    &trans    &trans
-&trans  &kp EXCL  &kp AT  &kp HASH  &kp DLLR  &kp PRCNT    &kp CARET    &kp AMPS    &kp KP_MULTIPLY  &kp LPAR  &kp RPAR  &kp DEL
-&trans  &trans    &trans  &trans    &trans    &trans       &trans       &trans      &trans           &trans    &trans    &trans
-&trans  &trans    &trans  &trans    &trans    &trans       &kp MINUS    &kp PLUS    &kp LBRC         &kp RBRC  &kp PIPE  &kp TILDE
-                          &trans    &trans    &trans       &trans       &trans
-                                    &trans    &trans       &trans
+&trans    &trans           &trans             &trans    &trans     &trans        &bootloader  &sys_reset     &trans  &trans     &trans      &trans
+&none     &kp PAUSE_BREAK  &kp C_VOLUME_UP    &kp UP    &kp PG_UP  &kp HOME      &kp N7       &kp N8         &kp N9  &kp N0     &kp PLUS    &kp MINUS
+&none     &kp PRINTSCREEN  &kp LEFT           &kp DOWN  &kp RIGHT  &kp INS       &kp N4       &kp N5         &kp N6  &none      &kp STAR    &kp RU_FSLH
+&kp LALT  &none            &kp C_VOLUME_DOWN  &kp C_PP  &kp PG_DN  &kp END       &kp N1       &kp N2         &kp N3  &kp EQUAL  &kp RU_DOT  &kp RU_COMMA
+                                              &trans    &trans     &kp LSHIFT    &kp RSHIFT   &kp RIGHT_ALT
+                                                        &trans     &trans        &kp RCTRL
             >;
         };
 
@@ -354,12 +354,12 @@
             label = "FUNCTION";
             display-name = "FUNCTION";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &sl 4     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &to 0
-                        &trans  &trans  &trans    &trans  &trans
-                                &trans  &trans    &trans
+&trans    &trans                   &trans                &trans              &trans              &trans                &trans              &trans                     &trans               &trans                 &trans               &trans
+&kp ESC   &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp RU_CYRILLIC_U   &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE    &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_SHCHA  &kp RU_CYRILLIC_ZE   &kp RU_CYRILLIC_HA
+&kp TAB   &kp RU_CYRILLIC_EF       &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_A   &kp RU_CYRILLIC_PE    &kp RU_CYRILLIC_ER  &kp RU_CYRILLIC_O          &kp RU_CYRILLIC_EL   &kp RU_CYRILLIC_DE     &kp RU_CYRILLIC_ZHE  &kp RU_CYRILLIC_E
+&kp LALT  &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I     &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE   &kp RU_CYRILLIC_YU     &kp RU_DOT           &kp RU_COMMA
+                                                         &trans              &trans              &trans                &mo 5               &trans
+                                                                             &trans              &trans                &trans
             >;
         };
 
@@ -367,12 +367,12 @@
             label = "GAME";
             display-name = "GAME";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &sl 4     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &to 0
-                        &trans  &trans  &trans    &trans  &trans
-                                &trans  &trans    &trans
+&trans         &trans            &trans     &trans       &trans      &trans                &trans            &trans                     &trans          &trans           &trans        &trans
+&en AT         &en HASH          &kp PRCNT  &en CARET    &en AMPS    &kp RU_CYRILLIC_IO    &en LT            &en GT                     &kp LPAR        &kp RPAR         &kp PLUS      &kp MINUS
+&kp RU_NUMERO  &en TILDE         &en GRAVE  &en SQT      &kp RU_DQT  &en DLLR              &en LEFT_BRACKET  &en RIGHT_BRACKET          &en LEFT_BRACE  &en RIGHT_BRACE  &kp STAR      &kp RU_FSLH
+&kp LALT       &kp RU_BACKSLASH  &en PIPE   &kp RU_FSLH  &none       &kp EXCL              &kp RU_QUESTION   &kp RU_CYRILLIC_HARD_SIGN  &kp UNDER       &kp EQUAL        &kp RU_COLON  &kp RU_SEMICOLON
+                                            &trans       &trans      &trans                &trans            &trans
+                                                         &trans      &trans                &trans
             >;
         };
 
