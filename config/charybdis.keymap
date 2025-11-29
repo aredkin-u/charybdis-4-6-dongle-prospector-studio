@@ -7,8 +7,8 @@
 #define MOUSE 1
 #define SYMBOL 2
 #define NUMBER 3
-#define FUNCTION 4
-#define GAME 5
+#define RU 4
+#define SYM RU 5
 #define RESET 6
 #define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24
 #define KEYS_R 5 6 7 8 9 15 16 17 18 19 25 26 27 28 29
@@ -351,7 +351,7 @@
         };
 
         ru {
-            label = "Function";
+            label = "RU";
             display-name = "Ru";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
@@ -364,7 +364,7 @@
         };
 
         sym_ru {
-            label = "Game";
+            label = "SYM RU";
             display-name = "Sym Ru";
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
