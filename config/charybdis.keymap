@@ -3,9 +3,9 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
-#define BASE 0
+#define EN 0
 #define MOUSE 1
-#define SYMBOL 2
+#define SYM EN 2
 #define NUMBER 3
 #define RU 4
 #define SYM RU 5
@@ -298,9 +298,9 @@
     keymap {
         compatible = "zmk,keymap";
 
-        Base {
-            label = "Base";
-            display-name = "Base";
+        En {
+            label = "EN";
+            display-name = "En";
             bindings = <
 &kp ESC   &kp N1  &kp N2  &kp N3  &kp N4        &kp N5          &kp N6    &kp N7     &kp N8  &kp N9  &kp N0   &kp DEL
 &kp ESC   &kp Q   &kp W   &kp E   &kp R         &kp T           &kp Y     &kp U      &kp I   &kp O   &kp P    &none
@@ -325,8 +325,8 @@
         };
 
         Sym {
-            label = "Symbol";
-            display-name = "Symbol";
+            label = "SYM EN";
+            display-name = "SYM En";
             bindings = <
 &trans        &trans     &trans     &trans     &sys_reset  &bootloader    &trans            &trans             &trans          &trans           &trans     &trans
 &kp AT        &kp HASH   &kp PRCNT  &kp CARET  &kp AMPS    &none          &kp LT            &kp GT             &kp LPAR        &kp RPAR         &kp PLUS   &kp MINUS
