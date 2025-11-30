@@ -119,57 +119,63 @@
         };
 
         LRPar {
-            bindings = <&none>;
+            bindings = <&LR_Par>;
             key-positions = <20 19>;
         };
 
         lr_brc {
-            bindings = <&none>;
+            bindings = <&LR_brc>;
             key-positions = <31 32>;
         };
 
         en_Lr_Brc {
-            bindings = <&none>;
+            bindings = <&enBrct>;
             key-positions = <31 32>;
         };
 
         lr_brs {
-            bindings = <&none>;
+            bindings = <&LR_brs>;
             key-positions = <44 43>;
         };
 
         en_lr_Brs {
-            bindings = <&none>;
+            bindings = <&en_LR_brs>;
             key-positions = <43 44>;
         };
 
         lr_uDQT {
-            bindings = <&none>;
+            bindings = <&LR_ruDKT>;
             key-positions = <18 19>;
         };
 
         lr_enDQT {
-            bindings = <&none>;
+            bindings = <&LR_enDKT>;
             key-positions = <18 19>;
         };
 
         R_sh {
-            bindings = <&none>;
+            bindings = <&kp RSHIFT>;
             key-positions = <30 31>;
         };
 
         L_sh {
-            bindings = <&none>;
+            bindings = <&kp LSHFT>;
             key-positions = <28 29>;
         };
 
         u_ent {
-            bindings = <&none>;
+            bindings = <&ent_>;
             key-positions = <44 45>;
         };
 
+        pss {
+            bindings = <&pss>;
+            key-positions = <41 35>;
+            layers = <0>;
+        };   
+
         hue {
-            bindings = <&none>;
+            bindings = <&ent_>;
             key-positions = <40 41>;
         };
     };

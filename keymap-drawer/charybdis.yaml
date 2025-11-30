@@ -356,24 +356,27 @@ combos:
   k: '&layer_ru'
   l: [BASE]
 - p: [20, 19]
-  k: ''
+  k: '&LR_Par'
 - p: [31, 32]
-  k: ''
+  k: '&LR_brc'
 - p: [31, 32]
-  k: ''
+  k: '&enBrct'
 - p: [44, 43]
-  k: ''
+  k: '&LR_brs'
 - p: [43, 44]
-  k: ''
+  k: '&en_LR_brs'
 - p: [18, 19]
-  k: ''
+  k: '&LR_ruDKT'
 - p: [18, 19]
-  k: ''
+  k: '&LR_enDKT'
 - p: [30, 31]
-  k: ''
+  k: RSHIFT
 - p: [28, 29]
-  k: ''
+  k: LSHFT
 - p: [44, 45]
-  k: ''
+  k: '&ent_'
+- p: [41, 35]
+  k: '&pss'
+  l: [BASE]
 - p: [40, 41]
-  k: ''
+  k: '&ent_'
