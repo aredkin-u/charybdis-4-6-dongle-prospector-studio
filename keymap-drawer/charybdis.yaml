@@ -201,8 +201,8 @@ layers:
   - TAB
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD A))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD S))
-  - {t: '(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD D))', type: held}
-  - {t: '(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD F))', type: held}
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD D))
+  - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD F))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD G))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD H))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD J))
@@ -345,17 +345,35 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
 combos:
-- p: [20, 24]
-  k: {t: Reset, h: toggle}
-- p: [25, 29]
-  k: {t: Reset, h: toggle}
-- p: [32, 33]
+- p: [23, 12]
   k: BOOT LDR
-- p: [7, 8]
-  k: {t: BASE, h: toggle}
-- p: [27, 28]
-  k: {t: FUNCTION, h: sticky}
-- p: [5, 9]
-  k: {t: GAME, h: toggle}
 - p: [0, 4]
   k: ZMK Studio
+- p: [16, 17]
+  k: '&layer_en'
+  l: [NUMBER]
+- p: [16, 17]
+  k: '&layer_ru'
+  l: [BASE]
+- p: [20, 19]
+  k: ''
+- p: [31, 32]
+  k: ''
+- p: [31, 32]
+  k: ''
+- p: [44, 43]
+  k: ''
+- p: [43, 44]
+  k: ''
+- p: [18, 19]
+  k: ''
+- p: [18, 19]
+  k: ''
+- p: [30, 31]
+  k: ''
+- p: [28, 29]
+  k: ''
+- p: [44, 45]
+  k: ''
+- p: [40, 41]
+  k: ''

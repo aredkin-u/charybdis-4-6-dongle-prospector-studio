@@ -148,7 +148,7 @@
             key-positions = <18 19>;
         };
 
-        lr_uDQT {
+        lr_enDQT {
             bindings = <&none>;
             key-positions = <18 19>;
         };
