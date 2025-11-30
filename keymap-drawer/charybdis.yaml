@@ -351,32 +351,37 @@ combos:
   k: ZMK Studio
 - p: [16, 17]
   k: '&layer_en'
-  l: [NUMBER]
+  l: [FUNCTION]
 - p: [16, 17]
   k: '&layer_ru'
   l: [BASE]
 - p: [20, 19]
   k: '&LR_Par'
+  l: [BASE, SYMBOL, FUNCTION]
 - p: [31, 32]
   k: '&LR_brc'
+  l: [BASE, SYMBOL]
 - p: [31, 32]
   k: '&enBrct'
+  l: [FUNCTION, GAME]
 - p: [44, 43]
   k: '&LR_brs'
+  l: [BASE, SYMBOL]
 - p: [43, 44]
   k: '&en_LR_brs'
 - p: [18, 19]
   k: '&LR_ruDKT'
 - p: [18, 19]
   k: '&LR_enDKT'
+  l: [FUNCTION, GAME]
 - p: [30, 31]
   k: RSHIFT
 - p: [28, 29]
   k: LSHFT
 - p: [44, 45]
   k: '&ent_'
-- p: [41, 35]
+- p: [47, 55]
   k: '&pss'
   l: [BASE]
 - p: [40, 41]
-  k: '&ent_'
+  k: '&hueplet'

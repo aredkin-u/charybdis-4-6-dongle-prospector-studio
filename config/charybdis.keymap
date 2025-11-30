@@ -109,7 +109,7 @@
         cmbEn {
             bindings = <&layer_en>;
             key-positions = <16 17>;
-            layers = <3>;
+            layers = <4>;
         };
 
         cmbRu {
@@ -121,21 +121,25 @@
         LRPar {
             bindings = <&LR_Par>;
             key-positions = <20 19>;
+            layers = <0 2 4>;
         };
 
         lr_brc {
             bindings = <&LR_brc>;
             key-positions = <31 32>;
+            layers = <0 2>;
         };
 
         en_Lr_Brc {
             bindings = <&enBrct>;
             key-positions = <31 32>;
+            layers = <4 5>;
         };
 
         lr_brs {
             bindings = <&LR_brs>;
             key-positions = <44 43>;
+            layers = <0 2>;
         };
 
         en_lr_Brs {
@@ -151,6 +155,7 @@
         lr_enDQT {
             bindings = <&LR_enDKT>;
             key-positions = <18 19>;
+            layers = <4 5>;
         };
 
         R_sh {
@@ -170,12 +175,12 @@
 
         pss {
             bindings = <&pss>;
-            key-positions = <41 35>;
+            key-positions = <47 55>;
             layers = <0>;
-        };   
+        };
 
         hue {
-            bindings = <&ent_>;
+            bindings = <&hueplet>;
             key-positions = <40 41>;
         };
     };
