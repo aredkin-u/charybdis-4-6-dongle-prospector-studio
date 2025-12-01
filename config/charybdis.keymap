@@ -109,7 +109,7 @@
         cmbEn {
             bindings = <&layer_en>;
             key-positions = <16 17>;
-            layers = <4>;
+            layers = <6>;
         };
 
         cmbRu {
@@ -145,17 +145,19 @@
         en_lr_Brs {
             bindings = <&en_LR_brs>;
             key-positions = <43 44>;
+            layers = <6 5>;
         };
 
         lr_uDQT {
             bindings = <&LR_ruDKT>;
             key-positions = <18 19>;
+            layers = <0 2>;
         };
 
         lr_enDQT {
             bindings = <&LR_enDKT>;
             key-positions = <18 19>;
-            layers = <4 5>;
+            layers = <5 6>;
         };
 
         R_sh {
@@ -182,6 +184,7 @@
         hue {
             bindings = <&hueplet>;
             key-positions = <40 41>;
+            layers = <0>;
         };
     };
 
@@ -439,7 +442,6 @@
 &kp LALT  &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I     &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE   &kp RU_CYRILLIC_YU     &kp RU_DOT           &kp RU_COMMA
                                                          &mo 3               &kp LCTRL           &kp SPACE             &kp LWIN            &kp LSHIFT
                                                                              &mo 5               &kp BACKSPACE         &kp DEL
-
             >;
         };
     };

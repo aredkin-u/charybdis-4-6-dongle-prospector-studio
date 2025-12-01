@@ -351,7 +351,7 @@ combos:
   k: ZMK Studio
 - p: [16, 17]
   k: '&layer_en'
-  l: [FUNCTION]
+  l: [Ru]
 - p: [16, 17]
   k: '&layer_ru'
   l: [En]
@@ -369,11 +369,13 @@ combos:
   l: [En, Sym En]
 - p: [43, 44]
   k: '&en_LR_brs'
+  l: [Ru, Sym Ru]
 - p: [18, 19]
   k: '&LR_ruDKT'
+  l: [En, Sym En]
 - p: [18, 19]
   k: '&LR_enDKT'
-  l: [FUNCTION, Sym Ru]
+  l: [Sym Ru, Ru]
 - p: [30, 31]
   k: RSHIFT
 - p: [28, 29]
@@ -385,3 +387,4 @@ combos:
   l: [En]
 - p: [40, 41]
   k: '&hueplet'
+  l: [En]
