@@ -390,9 +390,9 @@
             >;
         };
 
-        NUMBER {
+        Num_arrow {
             label = "NUMBER";
-            display-name = "NUMBER";
+            display-name = "Num arrow";
             bindings = <
 &trans    &trans           &trans             &trans    &trans     &trans        &bootloader  &sys_reset     &trans  &trans     &trans      &trans
 &none     &kp PAUSE_BREAK  &kp C_VOLUME_UP    &kp UP    &kp PG_UP  &kp HOME      &kp N7       &kp N8         &kp N9  &kp N0     &kp PLUS    &kp MINUS
@@ -405,7 +405,7 @@
 
         Ru {
             label = "FUNCTION";
-            display-name = "FUNCTION";
+            display-name = "Ru";
             bindings = <
 &trans    &trans                   &trans                &trans              &trans              &trans                &trans              &trans                     &trans               &trans                 &trans               &trans
 &kp ESC   &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp RU_CYRILLIC_U   &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE    &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_SHCHA  &kp RU_CYRILLIC_ZE   &kp RU_CYRILLIC_HA
@@ -418,7 +418,7 @@
 
         Sym_ru {
             label = "GAME";
-            display-name = "GAME";
+            display-name = "Sym Ru";
             bindings = <
 &trans         &trans            &trans     &trans       &trans      &trans                &trans            &trans                     &trans          &trans           &trans        &trans
 &en AT         &en HASH          &kp PRCNT  &en CARET    &en AMPS    &kp RU_CYRILLIC_IO    &en LT            &en GT                     &kp LPAR        &kp RPAR         &kp PLUS      &kp MINUS

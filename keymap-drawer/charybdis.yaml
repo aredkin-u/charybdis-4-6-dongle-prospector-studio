@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis, layout_name: charybdis_6col_layout}
 layers:
   En: [F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, DEV TOOLS, ESC, Q, W, E, R, T, Y, U, I, O, P, '', TAB, A, S, D, F, G, H, J, K, L, '', /, LALT, Z, X, C, V, B,
-    N, M, '', '', ., ',', NUMBER, LCTRL, SPACE, LWIN, LSHIFT, Sym En, BACK SPACE, DEL]
+    N, M, '', '', ., ',', Num arrow, LCTRL, SPACE, LWIN, LSHIFT, Sym En, BACK SPACE, DEL]
   MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -42,7 +42,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - NUMBER
+  - Num arrow
   - Sym En
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -116,7 +116,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  NUMBER:
+  Num arrow:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -173,7 +173,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - RCTRL
-  FUNCTION:
+  Ru:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -222,15 +222,15 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
   - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK)))
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK)))
-  - NUMBER
+  - Num arrow
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - GAME
+  - Sym Ru
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  GAME:
+  Sym Ru:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -317,7 +317,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: FUNCTION, h: sticky}
+  - {t: Ru, h: sticky}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -351,19 +351,19 @@ combos:
   k: ZMK Studio
 - p: [16, 17]
   k: '&layer_en'
-  l: [FUNCTION]
+  l: [Ru]
 - p: [16, 17]
   k: '&layer_ru'
   l: [En]
 - p: [20, 19]
   k: '&LR_Par'
-  l: [En, Sym En, FUNCTION]
+  l: [En, Sym En, Ru]
 - p: [31, 32]
   k: '&LR_brc'
   l: [En, Sym En]
 - p: [31, 32]
   k: '&enBrct'
-  l: [FUNCTION, GAME]
+  l: [Ru, Sym Ru]
 - p: [44, 43]
   k: '&LR_brs'
   l: [En, Sym En]
@@ -373,7 +373,7 @@ combos:
   k: '&LR_ruDKT'
 - p: [18, 19]
   k: '&LR_enDKT'
-  l: [FUNCTION, GAME]
+  l: [Ru, Sym Ru]
 - p: [30, 31]
   k: RSHIFT
 - p: [28, 29]
