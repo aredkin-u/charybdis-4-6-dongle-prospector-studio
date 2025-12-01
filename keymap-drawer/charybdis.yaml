@@ -223,13 +223,13 @@ layers:
   - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK)))
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK)))
   - Num arrow
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - LCTRL
+  - SPACE
+  - LWIN
+  - LSHIFT
   - Sym Ru
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - BACK SPACE
+  - DEL
   Sym Ru:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
