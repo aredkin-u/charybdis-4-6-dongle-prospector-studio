@@ -377,9 +377,9 @@
             >;
         };
 
-        SYMBOL {
+        Sym_en {
             label = "SYMBOL";
-            display-name = "SYMBOL";
+            display-name = "Sym En";
             bindings = <
 &trans        &trans     &trans     &trans     &sys_reset  &bootloader    &trans            &trans             &trans          &trans           &trans     &trans
 &kp AT        &kp HASH   &kp PRCNT  &kp CARET  &kp AMPS    &none          &kp LT            &kp GT             &kp LPAR        &kp RPAR         &kp PLUS   &kp MINUS
