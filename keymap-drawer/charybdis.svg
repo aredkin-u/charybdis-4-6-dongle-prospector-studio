@@ -135,8 +135,8 @@ text.trans { fill: #7e8184; }
 path.combo { stroke: #7f7f7f; }
 
 }</style>
-<g transform="translate(30, 0)" class="layer-BASE">
-<text x="0" y="28" class="label" id="BASE">BASE:</text>
+<g transform="translate(30, 0)" class="layer-En">
+<text x="0" y="28" class="label" id="En">En:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -2237,8 +2237,8 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(812, 217)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#BASE">
-<text x="0" y="-4" class="key tap layer-activator">BASE</text>
+<a href="#En">
+<text x="0" y="-4" class="key tap layer-activator">En</text>
 </a><text x="0" y="24" class="key hold">toggle</text>
 </g>
 <g transform="translate(220, 267) rotate(12.0)" class="key trans keypos-48">

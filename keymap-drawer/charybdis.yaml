@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: charybdis, layout_name: charybdis_6col_layout}
 layers:
-  BASE: [F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, DEV TOOLS, ESC, Q, W, E, R, T, Y, U, I, O, P, '', TAB, A, S, D, F, G, H, J, K, L, '', /, LALT, Z, X, C, V,
-    B, N, M, '', '', ., ',', NUMBER, LCTRL, SPACE, LWIN, LSHIFT, SYMBOL, BACK SPACE, DEL]
+  En: [F1, F2, F3, F4, F5, F6, F7, F8, F9, F10, F11, DEV TOOLS, ESC, Q, W, E, R, T, Y, U, I, O, P, '', TAB, A, S, D, F, G, H, J, K, L, '', /, LALT, Z, X, C, V, B,
+    N, M, '', '', ., ',', NUMBER, LCTRL, SPACE, LWIN, LSHIFT, SYMBOL, BACK SPACE, DEL]
   MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -335,7 +335,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: BASE, h: toggle}
+  - {t: En, h: toggle}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -354,19 +354,19 @@ combos:
   l: [FUNCTION]
 - p: [16, 17]
   k: '&layer_ru'
-  l: [BASE]
+  l: [En]
 - p: [20, 19]
   k: '&LR_Par'
-  l: [BASE, SYMBOL, FUNCTION]
+  l: [En, SYMBOL, FUNCTION]
 - p: [31, 32]
   k: '&LR_brc'
-  l: [BASE, SYMBOL]
+  l: [En, SYMBOL]
 - p: [31, 32]
   k: '&enBrct'
   l: [FUNCTION, GAME]
 - p: [44, 43]
   k: '&LR_brs'
-  l: [BASE, SYMBOL]
+  l: [En, SYMBOL]
 - p: [43, 44]
   k: '&en_LR_brs'
 - p: [18, 19]
@@ -382,6 +382,6 @@ combos:
   k: '&ent_'
 - p: [47, 55]
   k: '&pss'
-  l: [BASE]
+  l: [En]
 - p: [40, 41]
   k: '&hueplet'

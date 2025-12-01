@@ -353,7 +353,7 @@
 
         En {
             label = "BASE";
-            display-name = "BASE";
+            display-name = "En";
             bindings = <
 &kp F1    &kp F2  &kp F3  &kp F4  &kp F5     &kp F6           &kp F7    &kp F8      &kp F9  &kp F10  &kp F11  &kp F12
 &kp ESC   &kp Q   &kp W   &kp E   &kp R      &kp T            &kp Y     &kp U       &kp I   &kp O    &kp P    &none
