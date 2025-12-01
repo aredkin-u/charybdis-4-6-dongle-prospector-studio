@@ -351,7 +351,7 @@
     keymap {
         compatible = "zmk,keymap";
 
-        BASE {
+        En {
             label = "BASE";
             display-name = "BASE";
             bindings = <
