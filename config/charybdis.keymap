@@ -31,7 +31,7 @@
 
 //&caps_word { /delete-property/ ignore-modifiers; };
 
-/// {
+/ {
 //    behaviors {
 //        hml: hml {
 //            compatible = "zmk,behavior-hold-tap";
