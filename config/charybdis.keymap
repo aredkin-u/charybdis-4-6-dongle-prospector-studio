@@ -238,7 +238,7 @@
         layer_ru: layer_ru {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to_ru &to 4>;
+            bindings = <&to_ru &to 6>;
             label = "LAYER_RU";
             tap-ms = <60>;
             wait-ms = <0>;
@@ -403,9 +403,9 @@
             >;
         };
 
-        Ru {
+        FUNCTION {
             label = "FUNCTION";
-            display-name = "Ru";
+            display-name = "FUNCTION";
             bindings = <
 &trans    &trans                   &trans                &trans              &trans              &trans                &trans              &trans                     &trans               &trans                 &trans               &trans
 &kp ESC   &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp RU_CYRILLIC_U   &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE    &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_SHCHA  &kp RU_CYRILLIC_ZE   &kp RU_CYRILLIC_HA
@@ -429,16 +429,17 @@
             >;
         };
 
-        Reset {
+        Ru {
             label = "Reset";
-            display-name = "Reset";
+            display-name = "Ru";
             bindings = <
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &sl 4     &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &to 0
-                        &trans  &trans  &trans    &trans  &trans
-                                &trans  &trans    &trans
+&trans    &trans                   &trans                &trans              &trans              &trans                &trans              &trans                     &trans               &trans                 &trans               &trans
+&kp ESC   &kp RU_CYRILLIC_SHORT_I  &kp RU_CYRILLIC_TSE   &kp RU_CYRILLIC_U   &kp RU_CYRILLIC_KA  &kp RU_CYRILLIC_IE    &kp RU_CYRILLIC_EN  &kp RU_CYRILLIC_GHE        &kp RU_CYRILLIC_SHA  &kp RU_CYRILLIC_SHCHA  &kp RU_CYRILLIC_ZE   &kp RU_CYRILLIC_HA
+&kp TAB   &kp RU_CYRILLIC_EF       &kp RU_CYRILLIC_YERU  &kp RU_CYRILLIC_VE  &kp RU_CYRILLIC_A   &kp RU_CYRILLIC_PE    &kp RU_CYRILLIC_ER  &kp RU_CYRILLIC_O          &kp RU_CYRILLIC_EL   &kp RU_CYRILLIC_DE     &kp RU_CYRILLIC_ZHE  &kp RU_CYRILLIC_E
+&kp LALT  &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I     &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE   &kp RU_CYRILLIC_YU     &kp RU_DOT           &kp RU_COMMA
+                                                         &mo 3               &kp LCTRL           &kp SPACE             &kp LWIN            &kp LSHIFT
+                                                                             &mo 5               &kp BACKSPACE         &kp DEL
+
             >;
         };
     };
