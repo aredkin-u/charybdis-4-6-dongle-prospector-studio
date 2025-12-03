@@ -2,8 +2,8 @@
 #include <input/processors.dtsi>
 
 #define EN 0
-#define MOU 1
-#define RU 2
+#define RU 1
+#define MOU 2
 #define FK 3
 #define SYE 4
 #define SYR 5 

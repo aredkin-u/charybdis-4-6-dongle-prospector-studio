@@ -13,7 +13,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ESC, h: Ru}
+  - {t: ESC, h: MOUSE}
   - Q
   - W
   - E
@@ -57,63 +57,6 @@ layers:
   - Sym En
   - BACK SPACE
   - DEL
-  MOUSE:
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - LGUI
-  - LALT
-  - LSHFT
-  - LCTRL
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - F keys
-  - Ru
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
   Ru:
   - ''
   - ''
@@ -127,7 +70,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: ESC, h: Ru, type: held}
+  - {t: ESC, h: MOUSE}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Q))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD W))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD E))
@@ -171,6 +114,63 @@ layers:
   - Sym Ru
   - BACK SPACE
   - DEL
+  MOUSE:
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {type: held}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - LGUI
+  - LALT
+  - LSHFT
+  - LCTRL
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - F keys
+  - MOUSE
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   F keys:
   - ''
   - ''
@@ -184,7 +184,7 @@ layers:
   - ''
   - ''
   - ''
-  - ''
+  - {type: held}
   - F1
   - F2
   - F3
@@ -298,7 +298,7 @@ layers:
   - ''
   - ''
   - ''
-  - {t: '&en AT', type: held}
+  - '&en AT'
   - '&en HASH'
   - '%'
   - '&en CARET'
@@ -411,7 +411,7 @@ combos:
   l: [Sym En, En]
 - p: [31, 32]
   k: '&LR_brc'
-  l: [En, Sym En]
+  l: [En, Ru, Sym En, Sym Ru]
 - p: [31, 32]
   k: '&enBrct'
   l: [Ru, Sym Ru]
@@ -442,7 +442,7 @@ combos:
   k: '&pss'
   l: [En]
 - p: [51, 52]
-  k: Ru
+  k: MOUSE
 - p: [40, 41]
   k: '&hueplet'
-  l: [En, Ru, MOUSE, Sym En, Sym Ru]
+  l: [En]
