@@ -40,7 +40,7 @@
       input-processors = <&auto_mouse_layer MOUSE 1000>;
     };
 
-    move {
+    move2 {
       layers = <Ru MOUSE>;
       input-processors = <&auto_mouse_layer MOUSE 1000>;
     };
