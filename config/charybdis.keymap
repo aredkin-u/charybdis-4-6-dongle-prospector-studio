@@ -178,7 +178,7 @@
         layer_ru: layer_ru {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
-            bindings = <&to_ru &to 2>;
+            bindings = <&to_ru &to 1>;
             label = "LAYER_RU";
             tap-ms = <60>;
             wait-ms = <0>;
