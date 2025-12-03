@@ -49,12 +49,12 @@ layers:
   - ''
   - .
   - ','
-  - num_arrow
+  - Num Arrow
   - LCTRL
   - SPACE
   - ''
   - ''
-  - Sym en
+  - Sym En
   - BACK SPACE
   - DEL
   MOUSE:
@@ -163,12 +163,12 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD PERIOD AND GREATER THAN))
   - ((ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK)))
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD SLASH AND QUESTION MARK)))
-  - num_arrow
+  - Num Arrow
   - LCTRL
   - SPACE
   - ''
   - ''
-  - Sym ru
+  - Sym Ru
   - BACK SPACE
   - DEL
   F keys:
@@ -228,7 +228,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Sym en:
+  Sym En:
   - ''
   - ''
   - ''
@@ -285,7 +285,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  Sym ru:
+  Sym Ru:
   - ''
   - ''
   - ''
@@ -342,7 +342,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  num_arrow:
+  Num Arrow:
   - ''
   - ''
   - ''
@@ -408,28 +408,28 @@ combos:
   l: [En]
 - p: [19, 20]
   k: '&LR_Par'
-  l: [F keys, Sym en, MOUSE, En]
+  l: [Sym En, En]
 - p: [31, 32]
   k: '&LR_brc'
-  l: [F keys, En]
+  l: [En, Sym En]
 - p: [31, 32]
   k: '&enBrct'
-  l: [MOUSE, Sym en]
+  l: [Ru, Sym Ru]
 - p: [43, 44]
   k: '&LR_brs'
-  l: [En, F keys]
+  l: [En, Sym En]
 - p: [43, 44]
   k: '&en_LR_brs'
-  l: [MOUSE, Sym en]
+  l: [Ru, Sym Ru]
 - p: [18, 19]
   k: '&LR_ruDKT'
-  l: [MOUSE, Sym en]
+  l: [En, Sym En]
 - p: [18, 19]
   k: '&LR_enDKT'
-  l: [En, F keys]
+  l: [Ru, Sym Ru]
 - p: [12, 23]
   k: '&boot_lo'
-  l: [Sym ru]
+  l: [En, Ru]
 - p: [30, 31]
   k: RSHIFT
   l: [En, Ru]

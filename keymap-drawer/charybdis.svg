@@ -368,8 +368,10 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(220, 267) rotate(12.0)" class="key keypos-48">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#num_arrow">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 78%">num_arrow</tspan></text>
+<a href="#Num-Arrow">
+<text x="0" y="-4" class="key tap layer-activator">
+<tspan x="0" dy="-0.6em">Num</tspan><tspan x="0" dy="1.2em">Arrow</tspan>
+</text>
 </a></g>
 <g transform="translate(279, 289) rotate(30.0)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -392,9 +394,9 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(251, 337) rotate(30.0)" class="key keypos-53">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#Sym-en">
+<a href="#Sym-En">
 <text x="0" y="-4" class="key tap layer-activator">
-<tspan x="0" dy="-0.6em">Sym</tspan><tspan x="0" dy="1.2em">en</tspan>
+<tspan x="0" dy="-0.6em">Sym</tspan><tspan x="0" dy="1.2em">En</tspan>
 </text>
 </a></g>
 <g transform="translate(299, 365) rotate(30.0)" class="key keypos-54">
@@ -1015,8 +1017,10 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(220, 267) rotate(12.0)" class="key keypos-48">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#num_arrow">
-<text x="0" y="-4" class="key tap layer-activator"><tspan style="font-size: 78%">num_arrow</tspan></text>
+<a href="#Num-Arrow">
+<text x="0" y="-4" class="key tap layer-activator">
+<tspan x="0" dy="-0.6em">Num</tspan><tspan x="0" dy="1.2em">Arrow</tspan>
+</text>
 </a></g>
 <g transform="translate(279, 289) rotate(30.0)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1039,9 +1043,9 @@ path.combo { stroke: #7f7f7f; }
 <g transform="translate(251, 337) rotate(30.0)" class="key keypos-53">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
 <rect rx="4" ry="4" x="-20" y="-24" width="40" height="40" class="key"/>
-<a href="#Sym-ru">
+<a href="#Sym-Ru">
 <text x="0" y="-4" class="key tap layer-activator">
-<tspan x="0" dy="-0.6em">Sym</tspan><tspan x="0" dy="1.2em">ru</tspan>
+<tspan x="0" dy="-0.6em">Sym</tspan><tspan x="0" dy="1.2em">Ru</tspan>
 </text>
 </a></g>
 <g transform="translate(299, 365) rotate(30.0)" class="key keypos-54">
@@ -1325,8 +1329,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 </g>
 </g>
-<g transform="translate(30, 1839)" class="layer-Sym en">
-<text x="0" y="28" class="label" id="Sym-en">Sym en:</text>
+<g transform="translate(30, 1839)" class="layer-Sym En">
+<text x="0" y="28" class="label" id="Sym-En">Sym En:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1594,8 +1598,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 </g>
 </g>
-<g transform="translate(30, 2298)" class="layer-Sym ru">
-<text x="0" y="28" class="label" id="Sym-ru">Sym ru:</text>
+<g transform="translate(30, 2298)" class="layer-Sym Ru">
+<text x="0" y="28" class="label" id="Sym-Ru">Sym Ru:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>
@@ -1915,8 +1919,8 @@ path.combo { stroke: #7f7f7f; }
 </g>
 </g>
 </g>
-<g transform="translate(30, 2758)" class="layer-num_arrow">
-<text x="0" y="28" class="label" id="num_arrow">num_arrow:</text>
+<g transform="translate(30, 2758)" class="layer-Num Arrow">
+<text x="0" y="28" class="label" id="Num-Arrow">Num Arrow:</text>
 <g transform="translate(0, 56)">
 <g transform="translate(28, 49)" class="key keypos-0">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key side"/>

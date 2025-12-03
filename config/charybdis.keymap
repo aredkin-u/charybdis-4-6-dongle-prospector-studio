@@ -37,49 +37,49 @@
         LRPar {
             bindings = <&LR_Par>;
             key-positions = <19 20>;
-            layers = <3 4 1 0>;
+            layers = <4 0>;
         };
 
         lr_brc {
             bindings = <&LR_brc>;
             key-positions = <31 32>;
-            layers = <3 0>;
+            layers = <0 4>;
         };
 
         en_Lr_Brc {
             bindings = <&enBrct>;
             key-positions = <31 32>;
-            layers = <1 4>;
+            layers = <2 5>;
         };
 
         lr_brs {
             bindings = <&LR_brs>;
             key-positions = <43 44>;
-            layers = <0 3>;
+            layers = <0 4>;
         };
 
         en_lr_Brs {
             bindings = <&en_LR_brs>;
             key-positions = <43 44>;
-            layers = <1 4>;
+            layers = <2 5>;
         };
 
         lr_uDQT {
             bindings = <&LR_ruDKT>;
             key-positions = <18 19>;
-            layers = <1 4>;
+            layers = <0 4>;
         };
 
         lr_enDQT {
             bindings = <&LR_enDKT>;
             key-positions = <18 19>;
-            layers = <0 3>;
+            layers = <2 5>;
         };
 
         boot_l {
             bindings = <&boot_lo>;
             key-positions = <12 23>;
-            layers = <5>;
+            layers = <0 2>;
         };
 
         R_sh {
@@ -333,7 +333,7 @@
         };
 
         sym_en {
-            display-name = "Sym en";
+            display-name = "Sym En";
             bindings = <
 &none     &none      &none      &none      &none     &none       &none             &none              &none      &none      &none      &none
 &kp AT    &kp HASH   &kp PRCNT  &kp CARET  &kp AMPS  &none       &kp LT            &kp GT             &kp LPAR   &kp RPAR   &kp PLUS   &kp MINUS
@@ -345,7 +345,7 @@
         };
 
         sym_ru {
-            display-name = "Sym ru";
+            display-name = "Sym Ru";
             bindings = <
 &none          &none             &none      &none        &none                 &none                 &none             &none                      &none      &none      &none         &none
 &en AT         &en HASH          &kp PRCNT  &en CARET    &en AMPS              &kp RU_CYRILLIC_IO    &en LT            &en GT                     &kp LPAR   &kp RPAR   &kp PLUS      &kp MINUS
@@ -357,7 +357,7 @@
         };
 
         num_arrow {
-            display-name = "num_arrow";
+            display-name = "Num Arrow";
             bindings = <
 &none     &none            &none              &none     &none       &none            &none              &none         &none         &none      &none       &none
 &none     &kp PAUSE_BREAK  &kp C_VOLUME_UP    &kp UP    &kp PG_UP   &kp HOME         &kp N7             &kp NUMBER_8  &kp N9        &kp N0     &kp PLUS    &kp RU_MINUS
