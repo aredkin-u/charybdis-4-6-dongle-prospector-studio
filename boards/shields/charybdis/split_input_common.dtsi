@@ -37,7 +37,7 @@
 
     move {
       layers = <EN RU MOU>;
-      input-processors = <&auto_mouse_layer MOUSE 1000>;
+      input-processors = <&auto_mouse_layer MOU 1000>;
     };
  };
 
