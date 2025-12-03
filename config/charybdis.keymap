@@ -6,6 +6,14 @@
 #include <dt-bindings/zmk/keys.h>
 #include <dt-bindings/zmk/pointing.h>
 
+#define EN 0
+#define MOU 1
+#define RU 2
+#define FK 3
+#define SYE 4
+#define SYR 5 
+#define NUM 6 
+
 / {
     behaviors {
         cap_sen: cap_sen {
@@ -284,6 +292,7 @@
         compatible = "zmk,keymap";
 
         en {
+            label = "EN";
             display-name = "En";
             bindings = <
 &none             &none  &none  &none  &none      &none            &none    &none  &none  &none  &none    &none
@@ -296,7 +305,7 @@
         };
 
         MOUSE {
-            label = "MOUSE";
+            label = "MOU";
             display-name = "MOUSE";
             bindings = <
 &trans  &trans    &trans    &trans     &trans     &trans      &trans  &trans    &trans    &trans    &trans  &trans
@@ -309,6 +318,7 @@
         };
 
         ru {
+            label = "RU";
             display-name = "Ru";
             bindings = <
 &none             &none                    &none                 &none               &none               &none                 &none               &none                      &none                &none                  &none                &none
@@ -321,6 +331,7 @@
         };
 
         F_key {
+            label = "FK";
             display-name = "F keys";
             bindings = <
 &none     &none       &none   &none   &none    &none      &none         &none         &none         &none              &none  &none
@@ -333,6 +344,7 @@
         };
 
         sym_en {
+            label = "SYE";
             display-name = "Sym En";
             bindings = <
 &none     &none      &none      &none      &none     &none       &none             &none              &none      &none      &none      &none
@@ -345,6 +357,7 @@
         };
 
         sym_ru {
+           label = "SYR";
             display-name = "Sym Ru";
             bindings = <
 &none          &none             &none      &none        &none                 &none                 &none             &none                      &none      &none      &none         &none
@@ -357,6 +370,7 @@
         };
 
         num_arrow {
+           label = "NUM";
             display-name = "Num Arrow";
             bindings = <
 &none     &none            &none              &none     &none       &none            &none              &none         &none         &none      &none       &none
