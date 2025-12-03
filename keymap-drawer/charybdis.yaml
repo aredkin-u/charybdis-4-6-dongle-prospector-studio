@@ -445,4 +445,4 @@ combos:
   k: Ru
 - p: [40, 41]
   k: '&hueplet'
-  l: [En]
+  l: [En, Ru, MOUSE, Sym En, Sym Ru]
