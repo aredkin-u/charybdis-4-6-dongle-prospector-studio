@@ -304,7 +304,7 @@
             >;
         };
 
-        MOUSE {
+        MOU {
             label = "MOU";
             display-name = "MOUSE";
             bindings = <
