@@ -36,15 +36,10 @@
     };
 
     move {
-      layers = <En MOUSE>;
-      input-processors = <&auto_mouse_layer MOUSE 1000>;
-    };
-
-    move2 {
       layers = <Ru MOUSE>;
       input-processors = <&auto_mouse_layer MOUSE 1000>;
     };
-  };
+ };
 
   auto_mouse_layer: auto_mouse_layer {
     compatible = "zmk,input-processor-temp-layer";
