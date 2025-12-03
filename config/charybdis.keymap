@@ -7,8 +7,8 @@
 #include <dt-bindings/zmk/pointing.h>
 
 #define EN 0
-#define MOU 1
-#define RU 2
+#define RU 1
+#define MOU 2
 #define FK 3
 #define SYE 4
 #define SYR 5 
@@ -33,7 +33,7 @@
         cmben {
             bindings = <&layer_en>;
             key-positions = <17 16>;
-            layers = <2>;
+            layers = <1>;
         };
 
         cmbru {
@@ -51,13 +51,13 @@
         lr_brc {
             bindings = <&LR_brc>;
             key-positions = <31 32>;
-            layers = <0 4>;
+            layers = <0 1 4 5>;
         };
 
         en_Lr_Brc {
             bindings = <&enBrct>;
             key-positions = <31 32>;
-            layers = <2 5>;
+            layers = <1 5>;
         };
 
         lr_brs {
@@ -69,7 +69,7 @@
         en_lr_Brs {
             bindings = <&en_LR_brs>;
             key-positions = <43 44>;
-            layers = <2 5>;
+            layers = <1 5>;
         };
 
         lr_uDQT {
@@ -81,25 +81,25 @@
         lr_enDQT {
             bindings = <&LR_enDKT>;
             key-positions = <18 19>;
-            layers = <2 5>;
+            layers = <1 5>;
         };
 
         boot_l {
             bindings = <&boot_lo>;
             key-positions = <12 23>;
-            layers = <0 2>;
+            layers = <0 1>;
         };
 
         R_sh {
             bindings = <&kp RSHIFT>;
             key-positions = <30 31>;
-            layers = <0 2>;
+            layers = <0 1>;
         };
 
         L_sh {
             bindings = <&kp LSHFT>;
             key-positions = <28 29>;
-            layers = <0 2>;
+            layers = <0 1>;
         };
 
         u_ent {
@@ -123,7 +123,7 @@
         hue {
             bindings = <&hueplet>;
             key-positions = <40 41>;
-            layers = <0 2 1 4 5>;
+            layers = <0>;
         };
     };
 
@@ -304,19 +304,6 @@
             >;
         };
 
-        MOU {
-            label = "MOU";
-            display-name = "MOUSE";
-            bindings = <
-&trans  &trans    &trans    &trans     &trans     &trans      &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &trans    &trans    &trans     &trans     &trans      &trans  &trans    &trans    &trans    &trans  &trans
-&trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans      &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans  &trans
-&trans  &trans    &trans    &mo 3      &mo 2      &trans      &trans  &trans    &trans    &trans    &trans  &trans
-                            &mkp MB1   &mkp MB2   &mkp MB3    &trans  &trans
-                                       &trans     &trans      &trans
-            >;
-        };
-
         ru {
             label = "RU";
             display-name = "Ru";
@@ -327,6 +314,19 @@
 &kp LALT          &kp RU_CYRILLIC_YA       &kp RU_CYRILLIC_CHE   &kp RU_CYRILLIC_ES  &kp RU_CYRILLIC_EM  &kp RU_CYRILLIC_I     &kp RU_CYRILLIC_TE  &kp RU_CYRILLIC_SOFT_SIGN  &kp RU_CYRILLIC_BE   &kp RU_CYRILLIC_YU     &kp RU_DOT           &kp RU_COMMA
                                                                  &mo 6               &kp LCTRL           &kp SPACE             &none               &none
                                                                                      &mo 5               &kp BACKSPACE         &kp DEL
+            >;
+        };
+
+        MOU {
+            label = "MOU";
+            display-name = "MOUSE";
+            bindings = <
+&trans  &trans    &trans    &trans     &trans     &trans      &trans  &trans    &trans    &trans    &trans  &trans
+&trans  &trans    &trans    &trans     &trans     &trans      &trans  &trans    &trans    &trans    &trans  &trans
+&trans  &kp LGUI  &kp LALT  &kp LSHFT  &kp LCTRL  &trans      &trans  &mkp MB1  &mkp MB2  &mkp MB3  &trans  &trans
+&trans  &trans    &trans    &mo 3      &mo 2      &trans      &trans  &trans    &trans    &trans    &trans  &trans
+                            &mkp MB1   &mkp MB2   &mkp MB3    &trans  &trans
+                                       &trans     &trans      &trans
             >;
         };
 
