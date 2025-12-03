@@ -36,7 +36,12 @@
     };
 
     move {
-      layers = <En Ru MOUSE>;
+      layers = <En MOUSE>;
+      input-processors = <&auto_mouse_layer MOUSE 1000>;
+    };
+
+    move {
+      layers = <Ru MOUSE>;
       input-processors = <&auto_mouse_layer MOUSE 1000>;
     };
   };
