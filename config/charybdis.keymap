@@ -11,8 +11,8 @@
 #define MOU 2
 #define FK 3
 #define SYE 4
-#define SYR 5 
-#define NUM 6 
+#define SYR 5
+#define NUM 6
 
 / {
     behaviors {
@@ -45,13 +45,13 @@
         LRPar {
             bindings = <&LR_Par>;
             key-positions = <19 20>;
-            layers = <4 0>;
+            layers = <4 0 1 5>;
         };
 
         lr_brc {
             bindings = <&LR_brc>;
             key-positions = <31 32>;
-            layers = <0 1 4 5>;
+            layers = <0 4>;
         };
 
         en_Lr_Brc {
@@ -357,7 +357,7 @@
         };
 
         sym_ru {
-           label = "SYR";
+            label = "SYR";
             display-name = "Sym Ru";
             bindings = <
 &none          &none             &none      &none        &none                 &none                 &none             &none                      &none      &none      &none         &none
@@ -370,7 +370,7 @@
         };
 
         num_arrow {
-           label = "NUM";
+            label = "NUM";
             display-name = "Num Arrow";
             bindings = <
 &none     &none            &none              &none     &none       &none            &none              &none         &none         &none      &none       &none

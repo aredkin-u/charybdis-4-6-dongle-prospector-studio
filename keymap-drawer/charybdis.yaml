@@ -408,10 +408,10 @@ combos:
   l: [En]
 - p: [19, 20]
   k: '&LR_Par'
-  l: [Sym En, En]
+  l: [Sym En, En, Ru, Sym Ru]
 - p: [31, 32]
   k: '&LR_brc'
-  l: [En, Ru, Sym En, Sym Ru]
+  l: [En, Sym En]
 - p: [31, 32]
   k: '&enBrct'
   l: [Ru, Sym Ru]
