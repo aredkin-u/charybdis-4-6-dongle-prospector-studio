@@ -1,18 +1,18 @@
 layout: {zmk_keyboard: charybdis}
 layers:
   En:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - DEV TOOLS
   - {t: ESC, h: MOUSE}
   - Q
   - W
@@ -58,18 +58,18 @@ layers:
   - BACK SPACE
   - DEL
   Ru:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - F1
+  - F2
+  - F3
+  - F4
+  - F5
+  - F6
+  - F7
+  - F8
+  - F9
+  - F10
+  - F11
+  - DEV TOOLS
   - {t: ESC, h: MOUSE}
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD Q))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD W))
@@ -154,18 +154,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - '&msc MOVE_Y(5)'
   - F keys
-  - MOUSE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
-  - '&mkp MB1'
-  - '&mkp MB2'
-  - '&mkp MB3'
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -190,10 +190,10 @@ layers:
   - F3
   - F4
   - F5
-  - '7'
-  - '8'
-  - '9'
-  - '0'
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - F6
@@ -202,10 +202,10 @@ layers:
   - F9
   - F10
   - F11
-  - '4'
-  - '5'
-  - '6'
-  - RIGHT CONTROL
+  - ''
+  - '&mkp MB1'
+  - '&mkp MB2'
+  - '&mkp MB3'
   - ''
   - ''
   - LALT
@@ -214,10 +214,10 @@ layers:
   - ''
   - ''
   - DEV TOOLS
-  - '1'
-  - '2'
-  - '3'
-  - RSHIFT
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - ''
   - {t: ▽, type: trans}
@@ -229,18 +229,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Sym En:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '@'
   - '#'
   - '%'
@@ -286,18 +286,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Sym Ru:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - '&en AT'
   - '&en HASH'
   - '%'
@@ -326,7 +326,7 @@ layers:
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD BACKSLASH AND PIPE))
   - '&en PIPE'
   - ((LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD BACKSLASH AND PIPE))))
-  - ''
+  - {t: ▽, type: trans}
   - '!'
   - (LS(ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD 7 AND AMPERSAND)))
   - (ZMK HID USAGE(HID USAGE KEY, HID USAGE KEY KEYBOARD RIGHT BRACKET AND RIGHT BRACE))
@@ -343,18 +343,18 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   Num Arrow:
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
-  - ''
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
+  - {t: ▽, type: trans}
   - ''
   - PAUSE BREAK
   - VOLUME UP
