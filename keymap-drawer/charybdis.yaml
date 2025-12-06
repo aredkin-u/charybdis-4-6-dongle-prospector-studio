@@ -52,7 +52,7 @@ layers:
   - Num Arrow
   - LCTRL
   - SPACE
-  - ''
+  - F keys
   - ''
   - Sym En
   - BACK SPACE
@@ -109,7 +109,7 @@ layers:
   - Num Arrow
   - LCTRL
   - SPACE
-  - ''
+  - F keys
   - ''
   - Sym Ru
   - BACK SPACE
@@ -184,7 +184,7 @@ layers:
   - ''
   - ''
   - ''
-  - {type: held}
+  - ''
   - F1
   - F2
   - F3
@@ -211,7 +211,7 @@ layers:
   - LALT
   - LSHIFT
   - ''
-  - {type: held}
+  - ''
   - ''
   - DEV TOOLS
   - '1'
@@ -223,7 +223,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
