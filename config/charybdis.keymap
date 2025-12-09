@@ -125,6 +125,11 @@
             key-positions = <40 41>;
             layers = <0>;
         };
+
+        unl_studio {
+            bindings = <&studio_unlock>;
+            key-positions = <0 4>;
+        };
     };
 
     macros {
@@ -285,6 +290,13 @@
             #binding-cells = <0>;
             bindings = <&kp V &kp L &kp A &kp D &kp I &kp M &kp I &kp R &kp SPACE &kp S &kp H &kp A &kp H &kp I &kp D &kp Z &kp H &kp A &kp N &kp Y &kp A &kp N>;
             label = "HUEPLET";
+        };
+
+        st_unlock: st_unlock {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&studio_unlock>;
+            label = "ST_UNLOCK";
         };
     };
 

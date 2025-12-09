@@ -446,3 +446,5 @@ combos:
 - p: [40, 41]
   k: '&hueplet'
   l: [En]
+- p: [0, 4]
+  k: ZMK Studio
