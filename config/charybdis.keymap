@@ -13,10 +13,9 @@
 #define SYE 4
 #define SYR 5
 #define NUM 6
-
-#define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24  
+#define KEYS_L 0 1 2 3 4 10 11 12 13 14 20 21 22 23 24
 #define KEYS_R 5 6 7 8 9 15 16 17 18 19 25 26 27 28 29
-#define THUMBS 30 31 32 33 34 35 
+#define THUMBS 30 31 32 33 34 35
 
 / {
     behaviors {
@@ -30,62 +29,53 @@
             hold-while-undecided;
         };
 
-    hml: hml {
-      compatible = "zmk,behavior-hold-tap";
-      #binding-cells = <2>;
-      flavor = "balanced";
-      tapping-term-ms = <2000>;
-      quick-tap-ms = <175>;
-      require-prior-idle-ms = <250>;
-      hold-trigger-key-positions = <KEYS_R THUMBS>;
-      hold-trigger-on-release;
-      bindings =
-        <&kp>,
-        <&kp>;
+        hml: hml {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <2000>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <250>;
+            hold-trigger-key-positions = <KEYS_R THUMBS>;
+            hold-trigger-on-release;
+            bindings = <&kp>, <&kp>;
         };
 
-    hmr: hmr {
-      compatible = "zmk,behavior-hold-tap";
-      #binding-cells = <2>;
-      flavor = "balanced";
-      tapping-term-ms = <2000>;
-      quick-tap-ms = <175>;
-      require-prior-idle-ms = <250>;
-      hold-trigger-key-positions = <KEYS_L THUMBS>;
-      hold-trigger-on-release;
-      bindings =
-        <&kp>,
-        <&kp>;
+        hmr: hmr {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <2000>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <250>;
+            hold-trigger-key-positions = <KEYS_L THUMBS>;
+            hold-trigger-on-release;
+            bindings = <&kp>, <&kp>;
         };
 
-    hml_s: hml_s {
-      compatible = "zmk,behavior-hold-tap";
-      #binding-cells = <2>;
-      flavor = "balanced";
-      tapping-term-ms = <2000>;
-      quick-tap-ms = <175>;
-      require-prior-idle-ms = <0>;
-      hold-trigger-key-positions = <KEYS_R THUMBS>;
-      hold-trigger-on-release;
-      bindings =
-        <&kp>,
-        <&kp>;
+        hml_s: hml_s {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <2000>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <0>;
+            hold-trigger-key-positions = <KEYS_R THUMBS>;
+            hold-trigger-on-release;
+            bindings = <&kp>, <&kp>;
         };
 
-    hmr_s: hmr_s {
-      compatible = "zmk,behavior-hold-tap";
-      #binding-cells = <2>;
-      flavor = "balanced";
-      tapping-term-ms = <2000>;
-      quick-tap-ms = <175>;
-      require-prior-idle-ms = <0>;
-      hold-trigger-key-positions = <KEYS_L THUMBS>;
-      hold-trigger-on-release;
-      bindings =
-        <&kp>,
-        <&kp>;
+        hmr_s: hmr_s {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            tapping-term-ms = <2000>;
+            quick-tap-ms = <175>;
+            require-prior-idle-ms = <0>;
+            hold-trigger-key-positions = <KEYS_L THUMBS>;
+            hold-trigger-on-release;
+            bindings = <&kp>, <&kp>;
         };
-
     };
 
     combos {
@@ -368,11 +358,11 @@
             label = "EN";
             display-name = "En";
             bindings = <
-&kp F1            &kp F2  &kp F3  &kp F4  &kp F5     &kp F6           &kp F7   &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
-&lt 2 ESC         &kp Q   &kp W   &kp E   &kp R      &kp T            &kp Y    &kp U   &kp I   &kp O    &kp P    &none
-&mt CAPSLOCK TAB  &kp A   &kp S   &kp D   &kp F      &kp G            &kp H    &kp J   &kp K   &kp L    &none    &kp SLASH
-&kp LALT          &kp Z   &kp X   &kp C   &kp V      &kp B            &kp N    &kp M   &none   &none    &kp DOT  &kp COMMA
-                                  &mo 6   &kp LCTRL  &kp SPACE        &mo 3    &none
+&kp F1            &kp F2  &kp F3  &kp F4  &kp F5     &kp F6           &kp F7        &kp F8  &kp F9  &kp F10  &kp F11  &kp F12
+&lt 2 ESC         &kp Q   &kp W   &kp E   &kp R      &kp T            &kp Y         &kp U   &kp I   &kp O    &kp P    &none
+&mt CAPSLOCK TAB  &kp A   &kp S   &kp D   &kp F      &hml LSHIFT G    &hmr RSHFT H  &kp J   &kp K   &kp L    &none    &kp SLASH
+&kp LALT          &kp Z   &kp X   &kp C   &kp V      &kp B            &kp N         &kp M   &none   &none    &kp DOT  &kp COMMA
+                                  &mo 6   &kp LCTRL  &kp SPACE        &mo 3         &none
                                           &mo 4      &kp BACKSPACE    &kp DEL
             >;
         };

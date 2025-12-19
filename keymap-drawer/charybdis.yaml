@@ -30,8 +30,8 @@ layers:
   - S
   - D
   - F
-  - G
-  - H
+  - {t: G, h: LSHIFT}
+  - {t: H, h: RSHFT}
   - J
   - K
   - L
