@@ -56,7 +56,7 @@ layers:
   - ''
   - Sym En
   - BACK SPACE
-  - DEL
+  - ENTER
   Ru:
   - F1
   - F2
@@ -113,7 +113,7 @@ layers:
   - ''
   - Sym Ru
   - BACK SPACE
-  - DEL
+  - ENTER
   MOUSE:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -397,7 +397,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - RSHIFT
-  - RIGHT ALT
+  - DEL
   - RIGHT CONTROL
 combos:
 - p: [17, 16]
