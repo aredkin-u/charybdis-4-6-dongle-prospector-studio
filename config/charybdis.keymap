@@ -150,33 +150,20 @@
             layers = <0 1>;
         };
 
-        u_ent {
-            bindings = <&ent_>;
-            key-positions = <45 44>;
-        };
-
         pss {
             bindings = <&pss>;
             key-positions = <55 47>;
             layers = <0>;
         };
 
-        mo2 {
-            timeout-ms = <50>;
-            slow-release;
-            key-positions = <51 52>;
-            bindings = <&mo 2>;
-        };
-
-        hue {
-            bindings = <&hueplet>;
-            key-positions = <40 41>;
-            layers = <0>;
-        };
-
         unl_studio {
             bindings = <&studio_unlock>;
             key-positions = <0 4>;
+        };
+
+        Alt_Del {
+            bindings = <&kp LA(DEL)>;
+            key-positions = <46 47>;
         };
     };
 
@@ -312,13 +299,6 @@
             label = "BOOTL";
         };
 
-        ent_: ent_ {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp ENTER>;
-            label = "ENT_";
-        };
-
         to_Fkeys: to_Fkeys {
             compatible = "zmk,behavior-macro";
             #binding-cells = <0>;
@@ -331,13 +311,6 @@
             #binding-cells = <0>;
             bindings = <&kp LS(R) &kp I &kp Y &kp N2 &kp N1 &kp N4 &kp LS(B) &kp L &kp A &kp U &kp N6 &kp N2 &kp LS(V) &kp V>;
             label = "PSS";
-        };
-
-        hueplet: hueplet {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings = <&kp V &kp L &kp A &kp D &kp I &kp M &kp I &kp R &kp SPACE &kp S &kp H &kp A &kp H &kp I &kp D &kp Z &kp H &kp A &kp N &kp Y &kp A &kp N>;
-            label = "HUEPLET";
         };
 
         st_unlock: st_unlock {
@@ -394,12 +367,12 @@
             label = "FK";
             display-name = "F keys";
             bindings = <
-&none      &none       &none   &none   &none    &none      &none   &none   &none   &none    &none  &none
-&none      &kp F1      &kp F2  &kp F3  &kp F4   &kp F5     &kp F7  &kp F8  &kp F9  &kp F10  &none  &none
-&kp F6     &kp F7      &kp F8  &kp F9  &kp F10  &kp F11    &kp F4  &kp F5  &kp F6  &kp F11  &none  &none
-&kp LCTRL  &kp LSHIFT  &none   &none   &none    &kp F12    &kp F1  &kp F2  &kp F3  &none    &none  &none
-                               &trans  &trans   &trans     &trans  &trans
-                                       &trans   &trans     &trans
+&none      &none       &none     &none   &none    &none      &none   &none    &none    &none    &none  &none
+&none      &kp F1      &kp F2    &kp F3  &kp F4   &kp F5     &kp F5  &kp F10  &kp F11  &kp F10  &none  &none
+&kp F6     &kp F7      &kp F8    &kp F9  &kp F10  &kp F11    &kp F4  &kp F9   &kp F6   &kp F11  &none  &none
+&kp LCTRL  &kp LSHIFT  &kp LALT  &none   &none    &kp F12    &kp F1  &kp F2   &kp F3   &none    &none  &none
+                                 &trans  &trans   &trans     &trans  &trans
+                                         &trans   &trans     &trans
             >;
         };
 
